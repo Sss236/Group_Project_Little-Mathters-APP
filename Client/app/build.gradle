@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    signingConfigs {
+        release {
+            storeFile file('/Users/fangwenrui/AndroidStudioProjects/5520/WFKeystore/WFKeystore')
+            storePassword '123456'
+            keyAlias 'client'
+            keyPassword '123456'
+        }
+    }
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "edu.neu.madcourse.mathters"
+        minSdkVersion 23
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+//    testBuildType "staging"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation "com.android.support:support-annotations:28.0.0"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'androidx.test.ext:junit:1.1.3'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    testImplementation 'junit:junit:4.12'
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    // Declare the dependency for the Cloud Firestore library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-firestore:18.0.0'
+    implementation 'com.google.firebase:firebase-database'
+
+    implementation platform('com.google.firebase:firebase-bom:29.0.1')
+    //noinspection GradleCompatible
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.google.android.material:material:1.4.0'
+
+    implementation 'com.android.support.test:runner:0.2'
+    androidTestImplementation 'androidx.test:core:1.0.0-beta02'
+    androidTestImplementation 'androidx.test:core:1.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/drawable-anydpi/delete_icon.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/drawable/round_corner.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/activity_category.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/activity_question_details.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/activity_questions.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/activity_sets.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/add_category_dialog.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/cat_item_layout.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/edit_category_dialog.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/xia/Desktop/litter mathter/Little-Mathters-App/Admin/app/src/main/res/layout/loading_progressbar.xml" value="0.20208333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

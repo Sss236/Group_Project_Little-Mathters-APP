@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_background"
+    tools:context="edu.neu.madcourse.mathters.LoginActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:layout_marginBottom="20dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/regname"
+      android:inputType="text"
+      android:maxLines="1"
+      android:hint="Enter your username and don't forget it"
+      android:layout_marginBottom="10dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/nickname"
+      android:inputType="text"
+      android:maxLines="1"
+      android:hint="Choose a nickname"
+      android:layout_marginBottom="10dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/regpassword"
+      android:inputType="textPassword"
+      android:maxLines="1"
+      android:hint="Enter your password"
+      android:layout_marginBottom="10dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/conpassword"
+      android:inputType="textPassword"
+      android:maxLines="1"
+      android:hint="Confirm your password"
+      android:layout_marginBottom="10dp"/>
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Register Now"
+      android:background="@drawable/round_corner"
+      android:id="@+id/registerButton"
+      android:layout_marginBottom="20dp"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Already have an account? Click here!"
+      android:textSize="20dp"
+      android:gravity="center"
+      android:id="@+id/loginNow"/>
+</LinearLayout>

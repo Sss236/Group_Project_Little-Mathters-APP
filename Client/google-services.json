@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "832559436918",
+    "project_id": "littlemathters",
+    "storage_bucket": "littlemathters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832559436918:android:416bdfbc22f2cd1eb2bb57",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.mathters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832559436918-8sacmpqmib6pfdahqk9bjiibtb01d1ak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.neu.madcourse.mathters",
+            "certificate_hash": "12453e4aa54ec316d15f9832ff457a505de30658"
+          }
+        },
+        {
+          "client_id": "832559436918-56368j3hndqkh96q4tv9gbn99rhtt48t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPVwAlVKEJUGjiFyjKx4fsp6oHSBGxBTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832559436918-56368j3hndqkh96q4tv9gbn99rhtt48t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
